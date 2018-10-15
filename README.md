@@ -26,7 +26,7 @@ Welcome to the Commit Wizzard 🧙
 
 Which Author should the Wizzard look for?
 gandalf
-Looking for sven!
+Looking for gandalf!
 
 Commits since how many days?
 13
