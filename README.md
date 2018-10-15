@@ -30,4 +30,15 @@ Looking for gandalf!
 
 Commits since how many days?
 13
+
+**************** COMMITS FROM gandalf SINCE 13 days *****************
+
+- add readme to project, add shellscript 🧙
+
+- Initial commit
+
+*****************************************************************
+
+
+Done! See you next Time  🧙 !
 ```
