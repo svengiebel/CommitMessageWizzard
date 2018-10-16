@@ -26,7 +26,7 @@ if [ -z "$2" ]
 fi
 echo "**************** COMMITS FROM $AUTHOR SINCE $DAYS days *****************";
 echo
-OUTPUT=`git log --since=$DAYS.days --author=$AUTHOR --pretty=%B | grep -v "Merge branch" | sed -e "/./s/^/- /" | uniq`;
+OUTPUT=`git log --since=$DAYS.days --author=$AUTHOR --pretty="- %s%n    %b" | grep -v "Merge branch" | grep -v "^\s*$" `;
 echo "$OUTPUT";
 echo
 echo "*****************************************************************";
