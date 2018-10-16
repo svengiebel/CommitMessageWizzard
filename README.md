@@ -42,3 +42,16 @@ Commits since how many days?
 
 Done! See you next Time  🧙 !
 ```
+
+---
+
+## Contributing
+
+Feel free to add features or fix bugs :)
+
+- Create a personal fork of the project on Github
+- Clone the fork to your local machine
+- Create a branch starting with the issue number "#1-fixing-bug-xy"
+- Write a short description of what you did into the pull request description field
+
+### Thanks! 👋
