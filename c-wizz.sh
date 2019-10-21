@@ -27,14 +27,15 @@ fi
 echo "**************** COMMITS FROM $AUTHOR SINCE $DAYS days *****************";
 echo
 OUTPUT=`git log --since=$DAYS.days --author=$AUTHOR --pretty="- %s%n    %b" | grep -v "Merge branch" | grep -v "^\s*$" `;
-if  [[ $1 = "-cp" ]]; then
-  echo `$OUTPUT | pbcopy`;
-else
-  echo "$OUTPUT";
-fi
+echo "$OUTPUT";
 echo
 echo "*****************************************************************";
 echo
 echo
 echo "${bold}Done! See you next Time ${normal} 🧙 !"
+
+if  [[ $1 = "-cp" ]]; then
+  echo `$OUTPUT | pbcopy`;
+fi
+
 
