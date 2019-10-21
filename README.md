@@ -6,6 +6,13 @@ small shellscript to echo the commit messages from the last commits since given 
 
 ## Info
 
+#### Options
+
+| Key    | Description                                    |
+| ------ | ---------------------------------------------- |
+| `-cp` | macOS Only: Copies the output to your clipboard |
+
+
 #### Vars
 
 | Key    | Type   |
@@ -34,7 +41,6 @@ Commits since how many days?
 **************** COMMITS FROM gandalf SINCE 13 days *****************
 
 - add readme to project, add shellscript 🧙
-
 - Initial commit
 
 *****************************************************************
